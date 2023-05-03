@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/untitled_design_45"
+    tools:context=".SETTING">
+
+    <TextView
+        android:id="@+id/download"
+        android:layout_width="317dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="-9dp"
+        android:layout_marginBottom="363dp"
+        android:fontFamily="@font/itim"
+        android:text="Downloads"
+        android:textSize="32sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="122dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="133dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="500dp"
+        android:textAlignment="center"
+        app:srcCompat="@drawable/gear" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="600dp"
+        android:fontFamily="@font/itim"
+        android:text="Setting"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="62sp" />
+
+    <TextView
+        android:id="@+id/changepassword"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="-10dp"
+        android:layout_marginBottom="311dp"
+        android:fontFamily="@font/itim"
+        android:text="Change Password"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/Security"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="-12dp"
+        android:layout_marginBottom="262dp"
+        android:fontFamily="@font/itim"
+        android:text="Security"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/notification"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="-8dp"
+        android:layout_marginBottom="218dp"
+        android:fontFamily="@font/itim"
+        android:text="Notification"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/History"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="-6dp"
+        android:layout_marginBottom="168dp"
+        android:fontFamily="@font/itim"
+        android:text="History"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/help_support"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="-11dp"
+        android:layout_marginBottom="125dp"
+        android:fontFamily="@font/itim"
+        android:text="Help and Support"
+        android:textSize="32sp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="318dp"
+        android:layout_marginBottom="364dp"
+        app:srcCompat="@drawable/download" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="43dp"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="313dp"
+        android:layout_marginBottom="137dp"
+        app:srcCompat="@drawable/customer_service" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="27dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="321dp"
+        android:layout_marginBottom="179dp"
+        app:srcCompat="@drawable/history" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="41dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="317dp"
+        android:layout_marginBottom="320dp"
+        app:srcCompat="@drawable/lock" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="45dp"
+        android:layout_height="29dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="472dp"
+        android:layout_marginEnd="315dp"
+        android:layout_marginBottom="226dp"
+        app:srcCompat="@drawable/notification" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="38dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="317dp"
+        android:layout_marginBottom="271dp"
+        app:srcCompat="@drawable/secure" />
+
+
+</RelativeLayout>

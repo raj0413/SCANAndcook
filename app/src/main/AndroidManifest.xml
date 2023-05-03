@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.INTRO"
+        tools:targetApi="31">
+        <activity
+            android:name=".exampleactivity"
+            android:exported="false" />
+        <activity
+            android:name=".example"
+            android:exported="false" />
+        <activity
+            android:name=".history"
+            android:exported="false" />
+        <activity
+            android:name=".notifications"
+            android:exported="true" />
+        <activity
+            android:name=".result2"
+            android:exported="true" />
+        <activity
+            android:name=".result1"
+            android:exported="true" />
+        <activity
+            android:name=".suppport"
+            android:exported="true" />
+        <activity
+            android:name=".yourdevices"
+            android:exported="true" />
+        <activity
+            android:name=".Security"
+            android:exported="true" />
+        <activity
+            android:name=".ChangePassword"
+            android:exported="true" />
+        <activity
+            android:name=".DownloadPanel"
+            android:exported="true" />
+        <activity
+            android:name=".home24"
+            android:exported="true" />
+        <activity
+            android:name=".SETTING"
+            android:exported="true" />
+        <activity
+            android:name=".SEARCH"
+            android:exported="true" />
+        <activity
+            android:name=".adminpanel"
+            android:exported="true" />
+        <activity
+            android:name=".Createpassword"
+            android:exported="true" />
+        <activity
+            android:name=".FORGETPASSWORD"
+            android:exported="true" />
+        <activity
+            android:name=".SIGNUP"
+            android:exported="true" />
+        <activity
+            android:name=".LOGINSIGNUP"
+            android:exported="true" />
+        <activity
+            android:name=".LOGIN"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.LOGIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SCANANDCOOK"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.SCANANDCOOK" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
